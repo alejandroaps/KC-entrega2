@@ -8,7 +8,8 @@ Para modificar los equipos participantes hay que modificar los arrays del inicio
     const grupoC = ["Alemania", "Islandia"];
     const grupoD = ["Francia", "Suiza"];
 
-Tambien se puede modicar los goles maximos que puede marcar un equipo en cada partido
+Tambien se puede modicar los goles maximos que puede marcar un equipo en cada partido:
+
 `const maxGoalsTeam = 10;`
 
 Para ejecutar el programa es necesario tene instalado node
