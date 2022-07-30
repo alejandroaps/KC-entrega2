@@ -80,3 +80,15 @@ console.log(cuartos1.toString());
 console.log(cuartos2.toString());
 console.log(cuartos3.toString());
 console.log(cuartos4.toString());
+
+console.log("\n===== SEMIFINALES =====\n");
+
+const semi1 = new match(cuartos1.teamWinner,cuartos3.teamWinner);
+const semi2 = new match(cuartos2.teamWinner,cuartos4.teamWinner);
+
+semi1.play();
+semi2.play();
+
+console.log(semi1.toString());
+console.log(semi2.toString());
+
