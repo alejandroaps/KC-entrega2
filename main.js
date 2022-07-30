@@ -98,3 +98,10 @@ const terCuarPuesto = new match(semi1.teamLoser,semi2.teamLoser);
 
 terCuarPuesto.play();
 console.log(terCuarPuesto.toString());
+
+console.log("\n===== FINAL =====\n");
+
+const final = new match(semi1.teamWinner,semi2.teamWinner);
+
+final.play();
+console.log(final.toString());
