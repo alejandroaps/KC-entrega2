@@ -108,6 +108,6 @@ console.log(final.toString());
 
 
 console.log("\n\n===============================================");
-textFinal = "¡" + final.teamWinner + "campeona de la EURO WOMEN’S CUP!";
+textFinal = "¡" + final.teamWinner + " campeona de la EURO WOMEN’S CUP!";
 console.log(textFinal);
 console.log("===============================================\n");
