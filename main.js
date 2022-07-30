@@ -37,8 +37,8 @@ class match
         }  
         else
         {
-            this.teamWinner = this.team1;
-            this.teamLoser = this.team2;               
+            this.teamWinner = this.team2;
+            this.teamLoser = this.team1;               
         } 
     }
 
@@ -92,3 +92,9 @@ semi2.play();
 console.log(semi1.toString());
 console.log(semi2.toString());
 
+console.log("\n===== TERCER Y CUARTO PUESTO =====\n");
+
+const terCuarPuesto = new match(semi1.teamLoser,semi2.teamLoser);
+
+terCuarPuesto.play();
+console.log(terCuarPuesto.toString());
