@@ -59,10 +59,10 @@ console.log("====================================================");
 
 console.log("\nEquipos que participan en el playoff:\n")
 
-console.log("GRUPO A:",grupoA[0], grupoA[1]);
-console.log("GRUPO B:",grupoB[0], grupoB[1]);
-console.log("GRUPO C:",grupoC[0], grupoC[1]);
-console.log("GRUPO D:",grupoD[0], grupoD[1]);
+console.log("GRUPO A: " + grupoA[0] + ", " + grupoA[1]);
+console.log("GRUPO B: " + grupoB[0] + ", " + grupoB[1]);
+console.log("GRUPO C: " + grupoC[0] + ", " + grupoC[1]);
+console.log("GRUPO D: " + grupoD[0] + ", " + grupoD[1]);
 
 console.log("\n===== CUARTOS DE FINAL =====\n");
 
@@ -108,6 +108,5 @@ console.log(final.toString());
 
 
 console.log("\n\n====================================================");
-textFinal = "¡" + final.teamWinner + " campeona de la EURO WOMEN’S CUP!";
-console.log(textFinal);
+console.log("¡" + final.teamWinner + " campeona de la EURO WOMEN’S CUP!");
 console.log("====================================================\n");
