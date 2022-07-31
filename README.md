@@ -16,5 +16,6 @@ Para ejecutar el programa es necesario tene instalado node. En este repositorio 
 
 Ejemplo de ejecución:
 
-![imagen](https://user-images.githubusercontent.com/58493457/182021893-db1c70c5-6974-4217-b693-5b11410e6a37.png)
+![imagen](https://user-images.githubusercontent.com/58493457/182021953-5fca1c92-e740-4246-8f52-dd70167dfd40.png)
+
 
