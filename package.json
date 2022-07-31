@@ -1,0 +1,21 @@
+{
+  "name": "kc-entrega2",
+  "version": "1.0.0",
+  "description": "Este es un similador de la EuroWomen’s Cup desde la fase de eliminatorias o playoff.\r Para modificar los equipos participantes hay que modificar los arrays del inicio del .js",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandroaps/KC-entrega2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroaps/KC-entrega2/issues"
+  },
+  "homepage": "https://github.com/alejandroaps/KC-entrega2#readme",
+  "type": "module"
+}

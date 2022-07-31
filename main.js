@@ -1,56 +1,5 @@
-// teams 
-                // 1º      2º
-const grupoA = ["España", "Noruega"];
-const grupoB = ["Inglaterra", "Países Bajos"];
-const grupoC = ["Alemania", "Islandia"];
-const grupoD = ["Francia", "Suiza"];
-
-
-// max goals by team
-const maxGoalsTeam = 10;
-
-// Class
-class match
-{
-    constructor(team1,team2)
-    {
-        this.team1 = team1;
-        this.team2 = team2;
-        this.goalsT1 = -1;
-        this.goalsT2 = -1;
-        this.teamWinner = null;
-        this.teamLoser = null;
-    }
-
-    play()
-    {
-        do
-        {
-            this.goalsT1 = Math.floor(Math.random() * (maxGoalsTeam+1));
-            this.goalsT2 = Math.floor(Math.random() * (maxGoalsTeam+1));
-        }while(this.goalsT1 == this.goalsT2);
-
-        if(this.goalsT1 >this.goalsT2)
-        {
-            this.teamWinner = this.team1;
-            this.teamLoser = this.team2;           
-        }  
-        else
-        {
-            this.teamWinner = this.team2;
-            this.teamLoser = this.team1;               
-        } 
-    }
-
-    toString()
-    {
-        return this.team1 +  " " + this.goalsT1 + " - " + this.goalsT2 +  " " + this.team2 + " => " + this.teamWinner;
-    }
-
-}
-
-
-
+import {match} from './match.js';
+import  {grupoA, grupoB, grupoC, grupoD} from './config.js'
 
 // Program
 console.log("====================================================");
